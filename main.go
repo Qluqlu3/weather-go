@@ -48,4 +48,5 @@ func main() {
 	}
 
 	fmt.Printf("%s!\n", city)
-	fmt.Printf("Temperature in %s: %.2f°C\n", city, weather.Main.Temp - 273.15
+	fmt.Printf("Temperature in %s: %.2f°C\n", city, weather.Main.Temp-273.15)
+}
